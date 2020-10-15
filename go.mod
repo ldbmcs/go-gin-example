@@ -4,6 +4,7 @@ go 1.15
 
 require (
 	github.com/astaxie/beego v1.12.2
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-ini/ini v1.62.0
 	github.com/go-playground/validator/v10 v10.4.0 // indirect
@@ -25,5 +26,6 @@ replace (
 	github.com/EDDYCJY/go-gin-example/pkg/setting => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/setting
 	github.com/EDDYCJY/go-gin-example/pkg/util => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/util
 	github.com/EDDYCJY/go-gin-example/routers => /Users/ldbmcs/GolandProjects/go-gin-example/routers
-	github.com/EDDYCJY/go-gin-example/routers/api => /Users/ldbmcs/GolandProjects/go-gin-example/routers/api
+	github.com/EDDYCJY/go-gin-example/routers => /Users/ldbmcs/GolandProjects/go-gin-example/routers
+	github.com/EDDYCJY/go-gin-example/middleware/jwt => /Users/ldbmcs/GolandProjects/go-gin-example/middleware/jwt
 )
