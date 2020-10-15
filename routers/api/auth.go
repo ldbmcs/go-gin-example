@@ -3,12 +3,12 @@ package api
 import (
 	"net/http"
 
-	"github.com/EDDYCJY/go-gin-example/models"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
+	"go-gin-example/models"
+	"go-gin-example/pkg/e"
+	"go-gin-example/pkg/logging"
+	"go-gin-example/pkg/util"
 )
 
 type auth struct {

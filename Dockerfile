@@ -1,8 +1,8 @@
 FROM golang:latest
 
 ENV GOPROXY https://goproxy.cn,direct
-WORKDIR $GOPATH/src/github.com/EDDYCJY/go-gin-example
-COPY . $GOPATH/src/github.com/EDDYCJY/go-gin-example
+WORKDIR $GOPATH/src/go-gin-example
+COPY . $GOPATH/src/go-gin-example
 RUN go build .
 
 EXPOSE 8000

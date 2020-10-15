@@ -7,10 +7,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
 
-	"github.com/EDDYCJY/go-gin-example/models"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
+	"go-gin-example/models"
+	"go-gin-example/pkg/e"
+	"go-gin-example/pkg/setting"
+	"go-gin-example/pkg/util"
 )
 
 //获取多个文章标签

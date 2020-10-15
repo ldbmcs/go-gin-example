@@ -1,10 +1,10 @@
 package jwt
 
 import (
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
 	"github.com/gin-gonic/gin"
+	"go-gin-example/pkg/e"
+	"go-gin-example/pkg/logging"
+	"go-gin-example/pkg/util"
 	"net/http"
 	"time"
 )

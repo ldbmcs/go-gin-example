@@ -1,4 +1,4 @@
-module github.com/EDDYCJY/go-gin-example
+module go-gin-example
 
 go 1.15
 
@@ -19,13 +19,13 @@ require (
 )
 
 replace (
-	github.com/EDDYCJY/go-gin-example/conf => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/conf
-	github.com/EDDYCJY/go-gin-example/middleware => /Users/ldbmcs/GolandProjects/go-gin-example/middleware
-	github.com/EDDYCJY/go-gin-example/middleware/jwt => /Users/ldbmcs/GolandProjects/go-gin-example/middleware/jwt
-	github.com/EDDYCJY/go-gin-example/models => /Users/ldbmcs/GolandProjects/go-gin-example/models
-	github.com/EDDYCJY/go-gin-example/pkg/e => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/e
-	github.com/EDDYCJY/go-gin-example/pkg/logging => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/logging
-	github.com/EDDYCJY/go-gin-example/pkg/setting => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/setting
-	github.com/EDDYCJY/go-gin-example/pkg/util => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/util
-	github.com/EDDYCJY/go-gin-example/routers => /Users/ldbmcs/GolandProjects/go-gin-example/routers
+	go-gin-example/conf => /Users/ldbmcs/GolandProjects/go-gin-example/conf
+	go-gin-example/middleware => /Users/ldbmcs/GolandProjects/go-gin-example/middleware
+	go-gin-example/middleware/jwt => /Users/ldbmcs/GolandProjects/go-gin-example/middleware/jwt
+	go-gin-example/models => /Users/ldbmcs/GolandProjects/go-gin-example/models
+	go-gin-example/pkg/e => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/e
+	go-gin-example/pkg/logging => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/logging
+	go-gin-example/pkg/setting => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/setting
+	go-gin-example/pkg/util => /Users/ldbmcs/GolandProjects/go-gin-example/pkg/util
+	go-gin-example/routers => /Users/ldbmcs/GolandProjects/go-gin-example/routers
 )
